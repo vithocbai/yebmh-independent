@@ -28,6 +28,7 @@ a {
 }
 
 .btn {
+    display: inline-block;
     min-width: 186px;
     padding: 21px 16px;
     background: var(--primary-color);
@@ -46,12 +47,17 @@ a {
 
 .heading {
     font-weight: 700;
-    line-height: 1.16;
     color: #0d1111;
 }
 
 .heading.lv1 {
+    line-height: 1.16;
     font-size: 6.1rem;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
 }
 
 .title {
@@ -61,10 +67,18 @@ a {
     color: #0d1111;
 }
 /* === Header ====*/
+.sticky {
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: -40px;
+    z-index: 1;
+}
+
 .header .navbar {
     display: flex;
     align-items: center;
-    padding-top: 52px;
+    padding: 52px 0 12px;
 }
 
 .header .logo {
@@ -104,7 +118,7 @@ a {
 .header .actions .cta-btn {
     margin-left: 24px;
     min-width: 108px;
-    padding: 11px 16px;
+    padding: 10px 16px;
     color: var(--primary-color);
     min-width: 108px;
     border: 1px solid var(--primary-color);
@@ -113,14 +127,11 @@ a {
 }
 
 /*  === Hero === */
-.hero {
-    margin-top: 50px;
-}
-
 .hero .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 38px 0 79px;
 }
 
 .hero .info-block {
@@ -262,4 +273,95 @@ a {
     line-height: 1.5rem;
     text-align: center;
     color: #ffffff;
+}
+
+/* === Featured === */
+.features {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.features .main-content {
+    width: 1024px;
+}
+
+.features .info {
+    width: 58%;
+    margin-left: 0;
+}
+
+.features .info .introduct {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #767e7e;
+}
+
+.features .heading {
+    margin-top: 18px;
+}
+
+.features .info .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.features .list {
+    margin-top: 80px;
+    display: flex;
+}
+
+.features .list .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 106px;
+    background: #ffc147;
+    border-radius: 18px;
+}
+
+.features .list .icon:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.features .list .item-1 {
+    max-width: 168px;
+    margin-right: 209px;
+}
+
+.features .list .item-2 {
+    max-width: 223px;
+    margin-right: 200px;
+}
+
+.features .list .item-3 {
+    max-width: 224px;
+}
+
+.features .list li:nth-child(2) .icon {
+    background: #ff947a;
+}
+
+.features .list li:nth-child(3) .icon {
+    background: #bf83ff;
+}
+
+.features .list .sub-title {
+    margin-top: 28px;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.features .list .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
 }
