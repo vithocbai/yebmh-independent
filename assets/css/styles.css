@@ -111,3 +111,155 @@ a {
     border-radius: 6px;
     background: none;
 }
+
+/*  === Hero === */
+.hero {
+    margin-top: 50px;
+}
+
+.hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .info-block {
+    width: 39%;
+}
+
+.info-block .introduce {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.info-block .heading {
+    margin-top: 18px;
+}
+
+.info-block .desc {
+    width: 82%;
+    margin-top: 46px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9da6a5;
+}
+
+.info-block .cta-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-block .cta-group .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.hero .image-block {
+    position: relative;
+}
+
+.hero .hero-img {
+    width: 576px;
+    height: 631px;
+}
+
+.hero .course-book {
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 75px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    padding: 17px 25px 18px;
+}
+
+.hero .course-book .icon {
+    position: relative;
+}
+
+.hero .course-book .horizon {
+    position: absolute;
+    top: 28px;
+    left: 4px;
+    right: 4px;
+}
+
+.hero .course-book .title {
+    margin-left: 16px;
+}
+
+.hero .schedules {
+    position: absolute;
+    left: -65px;
+    bottom: 46px;
+    padding: 16px 25px 23px;
+    width: 124px;
+    height: 132px;
+    background: #ffffff;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    text-align: center;
+}
+
+.hero .schedules .icon {
+    margin-top: 16px;
+}
+
+.hero .avatar-group {
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    width: 207px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero .avatar-group .info {
+    padding: 17px 35px;
+}
+
+.hero .avatar-group .avatar {
+    display: flex;
+    margin-top: 8px;
+}
+
+.hero .avatar-group .avatar-img {
+    margin-left: -7px;
+}
+
+.hero .avatar-group .avatar-img:first-child {
+    margin-left: 0;
+}
+
+.hero .avatar-group .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1ebfc1;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+}
