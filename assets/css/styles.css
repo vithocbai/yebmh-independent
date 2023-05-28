@@ -66,6 +66,14 @@ a {
     line-height: 1.5;
     color: #0d1111;
 }
+
+.mt18 {
+    margin-top: 18px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
 /* === Header ====*/
 .sticky {
     position: sticky;
@@ -73,6 +81,7 @@ a {
     right: 0;
     top: -40px;
     z-index: 1;
+    background-color: #1ebfc182;
 }
 
 .header .navbar {
@@ -143,10 +152,6 @@ a {
     font-size: 1.4rem;
     line-height: 1.5;
     color: #767e7e;
-}
-
-.info-block .heading {
-    margin-top: 18px;
 }
 
 .info-block .desc {
@@ -228,10 +233,6 @@ a {
     text-align: center;
 }
 
-.hero .schedules .icon {
-    margin-top: 16px;
-}
-
 .hero .avatar-group {
     position: absolute;
     right: 45px;
@@ -281,10 +282,6 @@ a {
     padding: 50px 0;
 }
 
-.features .main-content {
-    width: 1024px;
-}
-
 .features .info {
     width: 58%;
     margin-left: 0;
@@ -297,12 +294,7 @@ a {
     color: #767e7e;
 }
 
-.features .heading {
-    margin-top: 18px;
-}
-
 .features .info .desc {
-    margin-top: 18px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
@@ -351,7 +343,8 @@ a {
     background: #bf83ff;
 }
 
-.features .list .sub-title {
+.features .list .sub-title a {
+    display: inline-block;
     margin-top: 28px;
     font-weight: 600;
     font-size: 2rem;
@@ -364,4 +357,127 @@ a {
     font-size: 1.6rem;
     line-height: 1.69;
     color: #9da6a5;
+}
+
+/* === Popular === */
+.popular {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.popular .introduce {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.popular .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular .row .desc {
+    width: 525px;
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767e7e;
+}
+
+.popular .row .link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: var(--primary-color);
+}
+
+.popular-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.popular-list .popular-item {
+    position: relative;
+    width: 33.33%;
+}
+
+.popular-list .thumb {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.popular-list .thumb:hover {
+    background: #d0efed;
+    opacity: 0.35;
+}
+
+.popular-list .body {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    right: 17px;
+    width: 325px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 18px 25px 29px;
+}
+
+.popular-list .heading a {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.popular-list .desc {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+}
+
+.popular-list .price {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+.popular-list .price span {
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #0d1111;
+}
+
+.popular-list .info {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.popular-list .info .desc {
+    position: relative;
+    margin: 0 10px;
+}
+
+.popular-list .info .desc::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    top: 8px;
+    left: -10px;
+    line-height: 14px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1ebfc1;
 }
