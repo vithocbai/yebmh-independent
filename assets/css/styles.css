@@ -362,7 +362,7 @@ a {
 /* === Popular === */
 .popular {
     margin-top: 80px;
-    padding: 50px 0;
+    padding: 50px 0 200px;
 }
 
 .popular .introduce {
@@ -423,7 +423,7 @@ a {
     top: 322px;
     left: 17px;
     right: 17px;
-    width: 325px;
+    width: 90%;
     background: #ffffff;
     box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
@@ -480,4 +480,155 @@ a {
     height: 6px;
     border-radius: 50%;
     background: #1ebfc1;
+}
+
+/* Feedback */
+.featured {
+    margin-top: 190px;
+}
+
+.featured .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.featured .list .value {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d1111;
+}
+
+.featured .list .sub-title {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #767e7e;
+}
+
+.featured .info {
+    display: flex;
+    padding-top: 264px;
+}
+
+.featured .content {
+    width: 36%;
+}
+
+.featured blockquote {
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.featured .author {
+    margin-top: 33px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
+
+.featured .author strong {
+    color: #070707;
+}
+
+.featured .controls {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.featured .control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #2ac9bf;
+    border: none;
+    border-radius: 50%;
+}
+
+.featured .control:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.featured .avatars {
+    position: relative;
+    width: 59%;
+    height: 481px;
+    margin-left: auto;
+}
+
+.featured .avatars .avt-top-left {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.featured .avatars .avt-top-rigth {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.featured .avatars .avt-center {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    bottom: 139px;
+    left: 273px;
+    width: 235px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.featured .avatars img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.featured .avatars .avt-bt-right,
+.featured .avatars .avt-bt,
+.featured .avatars .avt-bt-left {
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.featured .avatars .avt-bt-right {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+}
+
+.featured .avatars .avt-bt {
+    position: absolute;
+    left: 212px;
+    bottom: 0;
+}
+
+.featured .avatars .avt-bt-left {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
 }
