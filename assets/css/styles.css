@@ -482,9 +482,10 @@ a {
     background: #1ebfc1;
 }
 
-/* Feedback */
+/* === Featured ===*/
 .featured {
-    margin-top: 190px;
+    margin-top: 140px;
+    padding: 50px 0;
 }
 
 .featured .list {
@@ -631,4 +632,35 @@ a {
     position: absolute;
     left: 0;
     bottom: 145px;
+}
+
+/* === Register === */
+.register {
+    margin-top: 80px;
+    background: #def6f5;
+    padding: 76px 0 88px 0;
+}
+
+.register .body {
+    display: flex;
+    align-items: center;
+}
+
+.register .info {
+    width: 420px;
+    margin-right: 410px;
+}
+
+.register .heading {
+    font-size: 4.2rem;
+    line-height: 1.5;
+    color: #070707;
+}
+
+.register .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
 }
